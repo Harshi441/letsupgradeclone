@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hero{
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+#title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5rem;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#subtitle{
+    font-weight: 50;
+    line-height: 10ch;
+    font-weight: 3.5cm;
+    font-family: 'Roboto', sans-serif;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+#content{
+    height: 80%;
+    width: 60%;
+    text-align: center;
+    padding-bottom: 15%;
+}
+#btn-1{
+    border-radius: 30cm;
+   padding: 0.4cm;
+   padding-left: 0.8cm;
+   padding-right: 0.8cm;
+   background-color: black;
+   font-size: x-large;
+   color: white;
+   
+}
+
+
+.btn-2{
+    
+    background-color:black;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    padding:8px ;
+    border-right: 5px;
+    border-top:5px ;
+    border-bottom:5px ;
+    border-left: 5px;
+    border-radius: 8px;
+    padding-left: 13px;
+    padding-right:13px;
+    border-spacing: 5px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+   
+}
+#flash{
+    font-size: 20px;
+    font-weight: 1.1rem;
+    margin-bottom: 10px;
+    animation: back 1s infinite;
+    font-family: 'Mukta', sans-serif;
+    row-gap: 10px;
+    line-height: 8ch;
+    justify-content: center;
+}
+@keyframes back{
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+#line{
+   
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
